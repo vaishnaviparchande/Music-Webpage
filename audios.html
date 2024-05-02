@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Categories</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #b366b1;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #f6f0f0;
+        }
+
+        .music-categories {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .category {
+            position: relative;
+    background-color: #950695;
+    padding: 30px;
+    border-radius: 8px;
+   box-shadow: 0 0 2px 2px #510d5d;
+    margin: 10px;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+
+        }
+        
+        .category:hover {
+            transform: scale(1.05);
+        }
+
+        .category img {
+            width: 250px;
+            height: 250px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .category audio {
+            width: 300px;
+            height: 40px;
+            
+        }
+        .category h3,h4{
+            color: #f6f0f0;
+            margin-top: 1px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Explore Music Categories</h1>
+
+    <div class="music-categories">
+        <div class="category">
+            <h3>70s Hits</h3>
+            <img src="lagjagale.jpg" alt="Rock">
+            <h4>Song:Lag Ja Gale</h4>
+            <audio controls>
+                <source src="Lag Ja Gale Se Phir-(PagalSongs.Com.IN).mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <div class="category">
+            <h3>Motivational</h3>
+            <img src="Merasafar.jpg" alt="Pop">
+            <h4>Song:Mera Safar</h4>
+            <audio controls>
+                <source src="Mera-Safar(PagalWorldl).mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <div class="category">
+            <h3>Traditional</h3>
+            <img src="meredhol.jpeg" alt="Hip Hop">
+            <h4>Song:Mere Dholna</h4>
+            <audio controls>
+                <source src="Mere Dholna(PagalWorld).mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <div class="category">
+            <h3>Marathi</h3>
+            <img src="apsaraali.jpg" alt="Electronic">
+            <h4>Song:Apsara Aali</h4>
+            <audio controls>
+                <source src="Apsara Aali - Full Audio _ Natarang _ Sonalee Kulkarni _ Bela Shende & Ajay-Atul.m4a" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <div class="category">
+            <h3>Dance</h3>
+            <img src="Saturday.jpg" alt="Rock">
+            <h4>Song:Saturday</h4>
+            <audio controls>
+                <source src="Saturday Saturday (Humpty Sharma Ki Dulhania).mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <div class="category">
+            <h3>Bollywood</h3>
+            <img src="Chaleya.jpg" alt="Pop">
+            <h4>Song:Chaleya</h4>
+            <audio controls>
+                <source src="Chaleya_64(PagalWorld.com.pe).mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+
+        <!-- Add more categories as needed -->
+    </div>
+
+</body>
+</html>
